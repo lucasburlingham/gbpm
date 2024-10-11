@@ -1,6 +1,6 @@
 # Git-based Property Manager
 
-This is a simple physical property manager that uses Git for version control and storage. It is designed to be used by a single user or a small team. It is not a full-fledged property management Property, but it can be used to manage a small number of assets that have a unique identifier, such as a serial number, asset tag, or other unique and searchable identifier.
+This is a simple physical property manager that uses Git for version control and storage. It is designed to be used by a single user or a small team. It is not a full-fledged property management system, but it can be used to manage a small number of assets that have a unique identifier, such as a serial number, asset tag, or other unique and searchable identifier.
 
 It loosely follows the Unix philosophy of "do one thing and do it well", and the KISS principle of "keep it simple, stupid" or "keep it stupid simple".
 
@@ -23,7 +23,7 @@ It loosely follows the Unix philosophy of "do one thing and do it well", and the
 
 ### Prerequisites
 
-A Unix-like system with `git bash python3 grep sed fzf shasum` installed. An internet connection is NOT required, but if you want to use the web interface, you will need a web browser. Internet connectivity is required to sync with remote repositories.
+A Unix-like system with `git bash python3 grep sed fzf` installed. An internet connection is NOT required, but if you want to use the web interface, you will need a web browser. Internet connectivity is required to sync with remote repositories.
 
 Optionally, `cron` can be used to automate backups and syncs.
 
