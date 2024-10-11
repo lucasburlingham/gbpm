@@ -1,0 +1,13 @@
+action:Receive Property 
+action:Return Property
+action:Transfer Property
+action:In-person Visit
+action:Add Property to Property Book
+action:Remove Property from Property Book
+
+result:Confirmed Success
+result:More Work needed, not resolved
+
+error_entry:Location
+error_entry:Owner
+error_entry:Model Name
